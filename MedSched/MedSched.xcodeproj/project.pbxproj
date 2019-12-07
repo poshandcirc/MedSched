@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		C0854E9D239B18F800CDE287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0854E9B239B18F800CDE287 /* LaunchScreen.storyboard */; };
 		C0854EA8239B18F900CDE287 /* MedSchedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0854EA7239B18F900CDE287 /* MedSchedTests.swift */; };
 		C0854EB3239B18F900CDE287 /* MedSchedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0854EB2239B18F900CDE287 /* MedSchedUITests.swift */; };
+		C0DC349D239B22A10084B16B /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC349C239B22A10084B16B /* RealmHelper.swift */; };
+		C0DC349F239B23950084B16B /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC349E239B23950084B16B /* Medication.swift */; };
+		C0DC34A1239B25480084B16B /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC34A0239B25480084B16B /* Entry.swift */; };
+		C0DC34A3239B27220084B16B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC34A2239B27220084B16B /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		C0854EAE239B18F900CDE287 /* MedSchedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedSchedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0854EB2239B18F900CDE287 /* MedSchedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedSchedUITests.swift; sourceTree = "<group>"; };
 		C0854EB4239B18F900CDE287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DC349C239B22A10084B16B /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		C0DC349E239B23950084B16B /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		C0DC34A0239B25480084B16B /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		C0DC34A2239B27220084B16B /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +101,6 @@
 				8ABE5E5B4EC8A82713272BF0 /* Pods-MedSched.debug.xcconfig */,
 				92FE75A75AD6D661D6FCBEF3 /* Pods-MedSched.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -122,6 +129,8 @@
 		C0854E91239B18F500CDE287 /* MedSched */ = {
 			isa = PBXGroup;
 			children = (
+				C0DC349B239B22830084B16B /* Helpers */,
+				C0DC349A239B225D0084B16B /* Objects */,
 				C0854E92239B18F500CDE287 /* AppDelegate.swift */,
 				C0854E94239B18F500CDE287 /* ViewController.swift */,
 				C0854E96239B18F600CDE287 /* Main.storyboard */,
@@ -148,6 +157,24 @@
 				C0854EB4239B18F900CDE287 /* Info.plist */,
 			);
 			path = MedSchedUITests;
+			sourceTree = "<group>";
+		};
+		C0DC349A239B225D0084B16B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC349E239B23950084B16B /* Medication.swift */,
+				C0DC34A0239B25480084B16B /* Entry.swift */,
+				C0DC34A2239B27220084B16B /* Reminder.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C0DC349B239B22830084B16B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC349C239B22A10084B16B /* RealmHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DC34A1239B25480084B16B /* Entry.swift in Sources */,
+				C0DC349F239B23950084B16B /* Medication.swift in Sources */,
 				C0854E95239B18F500CDE287 /* ViewController.swift in Sources */,
+				C0DC34A3239B27220084B16B /* Reminder.swift in Sources */,
+				C0DC349D239B22A10084B16B /* RealmHelper.swift in Sources */,
 				C0854E93239B18F500CDE287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
