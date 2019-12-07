@@ -11,6 +11,7 @@ import RealmSwift
 
 class Reminder: Object {
     
+    @objc dynamic var medication: Medication? = nil
     @objc dynamic var time: NSDate? = nil
     @objc dynamic var satisfied = false
     

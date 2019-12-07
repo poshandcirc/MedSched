@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33776E8C7056833154E2112E /* Pods_MedSched.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80CBBD77E134474E1F683D8 /* Pods_MedSched.framework */; };
+		C0484DEC239BEF270015CA0E /* TrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0484DEB239BEF270015CA0E /* TrackingHelper.swift */; };
 		C0854E93239B18F500CDE287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0854E92239B18F500CDE287 /* AppDelegate.swift */; };
 		C0854E95239B18F500CDE287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0854E94239B18F500CDE287 /* ViewController.swift */; };
 		C0854E98239B18F600CDE287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0854E96239B18F600CDE287 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		8ABE5E5B4EC8A82713272BF0 /* Pods-MedSched.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedSched.debug.xcconfig"; path = "Target Support Files/Pods-MedSched/Pods-MedSched.debug.xcconfig"; sourceTree = "<group>"; };
 		92FE75A75AD6D661D6FCBEF3 /* Pods-MedSched.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedSched.release.xcconfig"; path = "Target Support Files/Pods-MedSched/Pods-MedSched.release.xcconfig"; sourceTree = "<group>"; };
 		A80CBBD77E134474E1F683D8 /* Pods_MedSched.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedSched.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0484DEB239BEF270015CA0E /* TrackingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingHelper.swift; sourceTree = "<group>"; };
 		C0854E8F239B18F500CDE287 /* MedSched.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedSched.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0854E92239B18F500CDE287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0854E94239B18F500CDE287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				C0DC349C239B22A10084B16B /* RealmHelper.swift */,
+				C0484DEB239BEF270015CA0E /* TrackingHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				C0854E95239B18F500CDE287 /* ViewController.swift in Sources */,
 				C0DC34A3239B27220084B16B /* Reminder.swift in Sources */,
 				C0DC349D239B22A10084B16B /* RealmHelper.swift in Sources */,
+				C0484DEC239BEF270015CA0E /* TrackingHelper.swift in Sources */,
 				C0854E93239B18F500CDE287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

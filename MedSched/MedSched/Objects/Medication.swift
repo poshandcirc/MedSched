@@ -16,5 +16,4 @@ class Medication: Object {
     @objc dynamic var dose = 0
     
     @objc dynamic var frequency = 0
-    @objc dynamic var reminders = List<Reminder>()
 }

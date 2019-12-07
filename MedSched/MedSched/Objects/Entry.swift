@@ -13,5 +13,6 @@ class Entry: Object {
     
     @objc dynamic var medication: Medication? = nil
     @objc dynamic var time: NSDate? = nil
+    @objc dynamic var reminder: Reminder? = nil
     
 }
